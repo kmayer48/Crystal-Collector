@@ -1,0 +1,50 @@
+body{
+    background-image: url("../images/mastersword.jpg");
+    background-size: cover;
+    background-repeat: none;
+}
+
+@font-face { font-family: Triforce; src: url('Triforce.ttf'); } 
+
+.jumbotron {
+    width: 95%;
+    background-color :rgba(50,205,50, 0.8);
+    color: white;
+    font-family: Triforce;
+}
+
+.jumbotron h1{
+    font-size: 48pt;
+}
+
+.card {
+    background-color :rgba(50,205,50, 0.6);
+    color: white;
+}
+
+.card h3 {
+    font-family: Triforce;
+    font-size: 24pt,
+}
+
+
+.card h1 {
+    font-family: Triforce;
+}
+
+.rupees {
+    height: 200px;
+    width: 150px;
+}
+
+
+.rupees:hover{
+   cursor: pointer;
+   background: rgba(250,250,250, 0.6)
+}
+
+.rupee_row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

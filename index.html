@@ -1,0 +1,91 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rupee Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+</head>
+<body>
+
+  <embed src="assets/audio/theme.mp3" autostart="true" loop="true" height="0" width="0" volume="0.2">
+
+  <div class="jumbotron my-auto mx-auto text-center p-1">
+    <div class="row mx-auto my-auto">
+      <div class="col mx-auto my-auto">
+        <h1>% Rupee Collectors * ^</h1>
+        <p class="lead">You will be given a random amount of Rupees needed at the start of the game. There are four Rupees below.</p>
+        <p class="lead">By clicking on a Rupee you will add a specific amount to the current amount. You win the game by matching your current amount to the amount needed. If you go over the amount needed you will lose.</p>
+        <p class="lead">The value of each Rupee is hidden from you until you click on it. Each time the game starts, the game will change the value of each Rupee.<p>
+      </div>
+    </div>  
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-xs-12 col-lg-4 offset-lg-1">
+    <div class="card">
+      <div class="card-header text-center">
+        <h1>Amount Needed $</h1>
+      </div>
+        <div class="card-body">
+        <h3 class="card-title amount text-center"></h3>
+        </div>
+    </div>
+    </div>
+
+  <div class="col-xs-12 col-lg-3">
+  <div class="card">
+    <div class="card-header text-center">
+      <h1>Wins @</h1>
+    </div>
+      <div class="card-body">
+      <h3 class="card-title wins text-center"></h3>
+      </div>
+  </div>
+  </div>
+
+  <div class="col-xs-12 col-lg-3">
+  <div class="card">
+    <div class="card-header text-center">
+      <h1>Losses @</h1>
+    </div>
+      <div class="card-body">
+      <h3 class="card-title losses text-center"></h3>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-xs-12 col-lg-10 offset-lg-1">
+    <div class="card">
+      <div class="card-header text-center">
+        <h1>Curent Amount $</h1>
+      </div>
+    <div class="card-body">
+      <h3 class="card-title currentAmount text-center">0</h3>
+    </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-6 col-lg-12">
+      <div class="rupee_row">
+      </div>
+    </div>
+  </div>
+
+  	
+  <a href="assets/audio/rupee.wav" class="playSound"></a>
+  <a href="assets/audio/win.wav" class="winSound"></a>
+  <a href="assets/audio/lose.wav" class="loseSound"></a>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='https://cdn.rawgit.com/admsev/jquery-play-sound/master/jquery.playSound.js'></script>
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
