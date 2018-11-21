@@ -4,9 +4,6 @@ var winCount = 0;
 var lossCount = 0;
 var amountCount = 0;
 
-var audio = document.getElementById("myaudio");
-audio.volume = 0.4;
-
 //Set amount needed and wins/losses
 var startGame = function() {
 randomNum = Math.floor(Math.random() * (120-19) + 19);
