@@ -1,4 +1,4 @@
-# Crystal-Collector
+# Rupee-Collector
 
 ## You will be given a random amount of Rupees needed at the start of the game. There are four Rupees below.
 ## By clicking on a Rupee you will add a specific amount to the current amount. You win the game by matching your current amount to the amount needed. If you go over the amount needed you will lose.
